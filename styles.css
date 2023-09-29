@@ -1,17 +1,96 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: FreeMono, monospace;
 }
 
 .email-container {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 75px;
+    min-height: 450px;
+    max-height: 600px;
     }
 
+.open-email{
+    border: 2px solid #305252;
+    background-color: #bda0bc;
+}
+
 .container-fluid {
-    background-color: beige;
-    height: 100px;
+    background-color: #310a31;
+    height: 70px;
 }
       
+@media (min-width: 768px) {
+  .collapse-button  {
+        display: none; 
+  }
+
+}
+
+.open-button{
+    min-height: 120px;
+}
+
+.card-body{
+    width: 300px;
+    background-color: #dfe2cf;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 20px;
+}
+
+.collapse-button{
+    height: 40px;
+    width: 40px;
+    background-color: #dfe2cf;
+}
+
+.compose-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    background-color: #e63946
+    
+}
+.compose-wrapper {
+   position: fixed;
+    Bottom: 80px;
+    right: 80px;
+    z-index: 1;
+}
+
+
+.navbar {
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.email-text{
+    margin-left: 20px;
+}
+
+.reply-box{
+    width: 75%;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.reply-button{
+    height: 45px;
+    width: 45px;
+    background-color: #e63946;
+    box-shadow: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+html {
+    background-color: #dfe2cf;
+}
