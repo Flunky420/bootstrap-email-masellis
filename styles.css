@@ -8,7 +8,7 @@
 .email-container {
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 40px;
     min-height: 450px;
     max-height: 600px;
     }
@@ -16,6 +16,7 @@
 .open-email{
     border: 2px solid #305252;
     background-color: #bda0bc;
+    max-height: 600px;
 }
 
 .container-fluid {
@@ -108,12 +109,36 @@ html {
 
 .selected-email{
     background-color: #a189a0;
-    
 }
+
 .email{
     background-color:#bda0bc;
     border: 1px solid #305252;
 }
 
+.email-folders {
+    width: 300px;
+    height: 50px;
+    margin: 2px;
+}
 
 
+.email-folders-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.website-heading{
+    position: absolute;
+    Right: 100px;
+    margin-top: 5px;
+    color:#e63946;
+    Border: 2px solid #e63946;
+    border-radius: 25%;
+}
+
+li{
+    display: inline-block;
+}
